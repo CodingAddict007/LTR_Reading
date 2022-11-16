@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: darkred;
     height: 50px;
@@ -10,48 +9,39 @@ header {
     top: 0;
     z-index: 1;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
 }
-
 ul {
     list-style: none;
     padding: 12px;
 }
-
 ul li {
     font-size: 20px;
     display: inline-block;
     padding: 0 10px;
 }
-
 ul li a {
     text-decoration: none;
 }
-
 li a {
     color: white;
 }
-
 li a:hover {
     color: rgb(243, 157, 157);
 }
-
 .head1 img {
     padding: 5px;
     height: 40px;
     width: 40px;
 }
-
 .mainContainer {
     background-image: url('library.jpeg');
     background-size: 100vw 97vh;
     background-repeat: no-repeat;
     height: 93vh;
 }
-
 .name {
     color: white;
     font-size: 10vh;
@@ -59,7 +49,6 @@ li a:hover {
     top: 10vh;
     padding: 0 10vw;
 }
-
 .tag {
     color: white;
     font-size: 20px;
@@ -67,30 +56,24 @@ li a:hover {
     top: 12vh;
     padding: 0 12vw;
 }
-
-
 footer {
     height: 10vh;
 }
-
 .foot {
     padding: 10px;
     text-align: center;
 }
-
 @media screen and (max-width : 500px) {
     .name {
         font-size: 6vh;
     }
 }
-
 @media screen and (max-width : 500px) {
     .tag {
         font-size: 12px;
         padding: 0 10vw;
     }
 }
-
 ol {
     padding: 10px;
 }
@@ -266,6 +249,7 @@ lable {
 
 /* signin page */
 .sign_bg {
+    position:fixed;
     background-color: brown;
     width: 100vw;
     height: 100vh;
@@ -355,3 +339,125 @@ h5 a {
     text-decoration: none;
     color:black;
 }
+
+@media screen and (max-width : 500px) {
+    .signin {
+        background-color: white;
+        width: 75vw;
+        height: 90vh;
+        position: fixed;
+        top: 5vh;
+        left: 58px;
+        border-radius: 4px;
+    }
+     .signin_det {
+        position: relative;
+        left: 5vw;
+    }
+    h1 {
+        text-align: center;
+        padding: 2vh;
+    }
+    input {
+        width: 55vw;
+        border-style: none none groove none;
+    }
+    h5 {
+        text-align: right;
+        padding: 0 10vh;
+    }
+    #sign_btn {
+        position: relative;
+        left: 5vh;
+        width: 55vw;
+        border: 2px solid black;
+        height: 5vh;
+        font-size: 17px;
+        padding: 5px;
+        border-radius: 30px;
+        background-color: brown;
+        color: white;
+    }
+    .other_info p {
+        position: fixed;
+        left:35vw;
+    }
+    .logo {
+        display: flex;
+        column-gap: 20px;
+        position: fixed;
+        left: 28vw;
+    }
+    .sign_foot1 {
+        position: fixed;
+        left: 35vw;
+        color: gray;
+    }
+     .sign_foot2{
+        position: fixed;
+        left: 41vw;
+        top : 85vh;
+    }   
+}
+
+
+
+ @media screen and (max-width : 900px) {
+    .signin {
+        background-color: white;
+        width: 75vw;
+        height: 90vh;
+        position: fixed;
+        top: 5vh;
+        left: 58px;
+        border-radius: 4px;
+    }
+     .signin_det {
+        position: relative;
+        left: 5vw;
+    }
+    h1 {
+        text-align: center;
+        padding: 2vh;
+    }
+    input {
+        width: 55vw;
+        border-style: none none groove none;
+    }
+    h5 {
+        text-align: right;
+        padding: 0 10vh;
+    }
+    #sign_btn {
+        position: relative;
+        left: 5vh;
+        width: 55vw;
+        border: 2px solid black;
+        height: 5vh;
+        font-size: 17px;
+        padding: 5px;
+        border-radius: 30px;
+        background-color: brown;
+        color: white;
+    }
+    .other_info p {
+        position: fixed;
+        left:35vw;
+    }
+    .logo {
+        display: flex;
+        column-gap: 20px;
+        position: fixed;
+        left: 28vw;
+    }
+    .sign_foot1 {
+        position: fixed;
+        left: 35vw;
+        color: gray;
+    }
+     .sign_foot2{
+        position: fixed;
+        left: 41vw;
+        top : 85vh;
+    }   
+} 
